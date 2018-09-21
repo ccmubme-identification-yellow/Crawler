@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2033cd9d-a54a-4720-bf26-bcdb32b0461b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Crawler.py</StartupFile>
+    <StartupFile>CrawlerBaiduImage.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Crawler.py" />
+    <Compile Include="CrawlerBaiduImage.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
